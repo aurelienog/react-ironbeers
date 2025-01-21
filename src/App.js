@@ -1,11 +1,14 @@
 
 import './App.css';
+import BeersList from './components/beers-list/BeersList';
 
 function App() {
+
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <BeersList/>
+
+    </>
   );
 }
 
